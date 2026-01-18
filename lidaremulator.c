@@ -8,7 +8,7 @@
 
 #include "scenes/lidaremulator_scene.h"
 
-const GpioPin* const pin_led = &gpio_infrared_tx;
+const GpioPin* const pin_led = &gpio_ext_pa7;
 const GpioPin* const pin_back = &gpio_button_back;
 
 static bool lidaremulator_custom_event_callback(void* context, uint32_t event) {
